@@ -1,6 +1,6 @@
 baseURL = "http://scannell.me"
 languageCode = "en-us"
-theme = "anatole"
+theme = "ublogger"
 title = "Simon Scannell's personal blog"
 
 [params]
@@ -8,7 +8,8 @@ title = "Simon Scannell's personal blog"
 author = "Simon Scannell"
 description = "I am a self-taught Vulnerability Researcher"
 profilePicture = "images/profile.jpg"
-
+# customCss = ["css/tables.css"]
+version = "2.0.X"
 
 [menu]
 
@@ -24,3 +25,8 @@ weight = 200
 url = "/findings/"
 identifier = "findings"
 
+# Enable raw HTML
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
