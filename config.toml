@@ -9,3 +9,18 @@ author = "Simon Scannell"
 description = "I am a self-taught Vulnerability Researcher"
 profilePicture = "images/profile.jpg"
 
+
+[menu]
+
+[[menu.main]]
+name = "Home"
+identifier = "home"
+weight = 100
+url = "/"
+
+[[menu.main]]
+name = "Findings"
+weight = 200
+url = "/findings/"
+identifier = "findings"
+

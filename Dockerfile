@@ -15,7 +15,9 @@ RUN git init && git submodule add https://github.com/lxndrblz/anatole.git themes
 RUN rm config.toml
 COPY config.toml config.toml
 
-# Copy static content (images etc.)
+# Copy the actual site content
 COPY ./static/ ./static/
+COPY ./content/ ./content/
+
 
 ENTRYPOINT hugo server --bind 0.0.0.0 --port 1337
