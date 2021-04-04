@@ -1,0 +1,11 @@
+baseURL = "http://scannell.me"
+languageCode = "en-us"
+theme = "anatole"
+title = "Simon Scannell's personal blog"
+
+[params]
+title = "Simon Scannell's personal blog"
+author = "Simon Scannell"
+description = "I am a self-taught Vulnerability Researcher"
+profilePicture = "images/profile.jpg"
+
