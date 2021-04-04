@@ -12,21 +12,20 @@ profilePicture = "images/profile.jpg"
 version = "2.0.X"
 
 [menu]
+  [[menu.main]]
+  name = "Home"
+  identifier = "home"
+  weight = 100
+  url = "/"
 
-[[menu.main]]
-name = "Home"
-identifier = "home"
-weight = 100
-url = "/"
+  [[menu.main]]
+  name = "Findings"
+  weight = 200
+  url = "/findings/"
+  identifier = "findings"
 
-[[menu.main]]
-name = "Findings"
-weight = 200
-url = "/findings/"
-identifier = "findings"
-
-# Enable raw HTML
-[markup]
-  [markup.goldmark]
-    [markup.goldmark.renderer]
-      unsafe = true
+  [[menu.main]]
+  name = "About Me"
+  weight = 300
+  url = "/about/"
+  identifier = "about"

@@ -19,6 +19,5 @@ COPY config.toml config.toml
 # Copy the actual site content
 COPY ./static/ ./static/
 COPY ./content/ ./content/
-COPY ./assets/ ./assets/
 
 ENTRYPOINT hugo server --bind 0.0.0.0 --port 1337
