@@ -1,15 +1,25 @@
 baseURL = "http://scannell.me"
 languageCode = "en-us"
-theme = "ublogger"
+defaultContentLanguage = "en"
+theme = "terminal"
 title = "Simon Scannell's personal blog"
+paginate = 5
 
 [params]
 title = "Simon Scannell's personal blog"
 author = "Simon Scannell"
-description = "I am a self-taught Vulnerability Researcher"
-profilePicture = "images/profile.jpg"
-# customCss = ["css/tables.css"]
 version = "2.0.X"
+
+# required for terminal theme
+fullWidthTheme = false
+centerTheme = true
+showLanguageSelector = false
+themeColor = "pink"
+contentTypeName = "posts"
+
+
+[params.twitter]
+creator = "scannell_simon"
 
 [menu]
   [[menu.main]]
