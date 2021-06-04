@@ -26,4 +26,4 @@ COPY config.toml config.toml
 COPY ./static/ ./static/
 COPY ./content/ ./content/
 
-ENTRYPOINT hugo server --bind 0.0.0.0 --baseURL https://scannell.io --appendPort=false -p 80 --renderToDisk --minify
+ENTRYPOINT hugo server --bind 0.0.0.0 --appendPort=false -p 80 --minify --noTimes --baseURL https://scannell.io
