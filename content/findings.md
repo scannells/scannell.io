@@ -13,22 +13,22 @@ An incomplete list of all vulnerabilities I ever found!
 
 |Software|Versions|Impact|CVE|Write-Up|
 |--- |--- |--- |--- |--- |
-|Linux|< 5.8.15|Privilege Escalation|CVE-2020-27194|[Write Up](https://scannell.me/fuzzing-for-ebpf-jit-bugs-in-the-linux-kernel/), [Exploit](https://github.com/scannells/exploits/tree/master/CVE-2020-27194)|
+|Linux|< 5.8.15|Privilege Escalation|CVE-2020-27194|[Write Up](https://scannell.io/posts/ebpf-fuzzing/), [Exploit](https://github.com/scannells/exploits/tre/master/CVE-2020-27194)|
 |libGD|<= 2.2.5|PHP imagescale()remote wild free||[HackerOne report](https://hackerone.com/reports/478367)|
 |libGD|<= 2.2.5|PHP “Sandbox” escape|CVE-2019-6977|[Exploit](https://github.com/scannells/exploits/blob/master/CVE-2019-6977%20imagecolormatch.php)|
-|WordPress|<= 5.3.2|“Sandbox” escape|–|[RIPS Blog](https://blog.ripstech.com/2020/wordpress-hardening-bypass/)|
-|WordPress|<= 5.0.0|Unprivileged RCE|CVE-2019-8943|[RIPS Bog](https://blog.ripstech.com/2019/wordpress-image-remote-code-execution/)|
-|WordPress|<= 5.1.0|CSRF to RCE|CVE-2019-9787|[RIPS Blog](https://blog.ripstech.com/2019/wordpress-csrf-to-rce/)|
-|WordPress|<= 5.0.0|Post Priv Esc|CVE-2018-20152|[RIPS Blog](https://blog.ripstech.com/2018/wordpress-post-type-privilege-escalation/)|
-|WordPress|–|Priv Esc|CVE-2018-20714|[RIPS Blog](https://blog.ripstech.com/2018/wordpress-design-flaw-leads-to-woocommerce-rce/)|
+|WordPress|<= 5.3.2|“Sandbox” escape|–|[SonarSource Blog](https://blog.sonarsource.com/wordpress-hardening-bypass/)|
+|WordPress|<= 5.0.0|Unprivileged RCE|CVE-2019-8943|[RIPS Bog](https://blog.sonarsource.com/wordpress-image-remote-code-execution/)|
+|WordPress|<= 5.1.0|CSRF to RCE|CVE-2019-9787|[SonarSource Blog](https://blog.sonarsource.com/wordpress-csrf-to-rce/)|
+|WordPress|<= 5.0.0|Post Priv Esc|CVE-2018-20152|[SonarSource Blog](https://blog.sonarsource.com/wordpress-post-type-privilege-escalation/)|
+|WordPress|–|Priv Esc|CVE-2018-20714|[SonarSource Blog](https://blog.sonarsource.com/wordpress-design-flaw-leads-to-woocommerce-rce/)|
 |WordPress||Unprivileged Stored XSS in certain plugins|CVE-2019-16773|[HackerOne report](https://hackerone.com/reports/509930)|
-|MyBB|<= 1.8.2|Unprivileged Stored XSS|CVE-2019-12830|[RIPS Blog](https://blog.ripstech.com/2019/mybb-stored-xss-to-rce/)|
-|MyBB|<= 1.8.2|Privileged RCE|CVE-2019-12831|[RIPS Blog](https://blog.ripstech.com/2019/mybb-stored-xss-to-rce/)|
-|phpBB3|<= 3.2.3|Privileged RCE|CVE-2018-19274|[RIPS Blog](https://blog.ripstech.com/2018/phpbb3-phar-deserialization-to-remote-code-execution/)|
-|Pydio|<= 8.2.1|Unauthenticated RCE|CVE-2018-20718|[RIPS Blog](https://blog.ripstech.com/2018/pydio-unauthenticated-remote-code-execution/)|
+|MyBB|<= 1.8.2|Unprivileged Stored XSS|CVE-2019-12830|[SonarSource Blog](https://blog.sonarsource.com/mybb-stored-xss-to-rce/)|
+|MyBB|<= 1.8.2|Privileged RCE|CVE-2019-12831|[SonarSource Blog](https://blog.sonarsource.com/mybb-stored-xss-to-rce/)|
+|phpBB3|<= 3.2.3|Privileged RCE|CVE-2018-19274|[SonarSource Blog](https://blog.sonarsource.com/phpbb3-phar-deserialization-to-remote-code-execution/)|
+|Pydio|<= 8.2.1|Unauthenticated RCE|CVE-2018-20718|[SonarSource Blog](https://blog.sonarsource.com/pydio-unauthenticated-remote-code-execution/)|
 |Shopware|<= 5.4.3|Privileged RCE|SW-21776|–|
-|Magento|<= 2.3.1|Unauthenticated Stored XSS in Admin Dashboard|CVE-2019-7877|[RIPS Blog](https://blog.ripstech.com/2019/magento-rce-via-xss/)|
-|Magento|<= 2.3.0|Privileged RCE|PRODSECBUG-2261|[RIPS Blog](https://blog.ripstech.com/2019/magento-rce-via-xss/)|
+|Magento|<= 2.3.1|Unauthenticated Stored XSS in Admin Dashboard|CVE-2019-7877|[SonarSource Blog](https://blog.sonarsource.com/magento-rce-via-xss/)|
+|Magento|<= 2.3.0|Privileged RCE|PRODSECBUG-2261|[SonarSource Blog](https://blog.sonarsource.com/magento-rce-via-xss/)|
 |Magento|<= 2.3.0|Privileged RCE|PRODSECBUG-2256|–|
 |Magento|<= 2.3.1|Privileged RCE|CVE-2019-7932|–|
 |Magento|<= 2.3.1|Privileged RCE|CVE-2019-7885|–|
