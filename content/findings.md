@@ -17,7 +17,7 @@ An incomplete list of all vulnerabilities I ever found!
 |libGD|<= 2.2.5|PHP imagescale()remote wild free||[HackerOne report](https://hackerone.com/reports/478367)|
 |libGD|<= 2.2.5|PHP “Sandbox” escape|CVE-2019-6977|[Exploit](https://github.com/scannells/exploits/blob/master/CVE-2019-6977%20imagecolormatch.php)|
 |WordPress|<= 5.3.2|“Sandbox” escape|–|[SonarSource Blog](https://blog.sonarsource.com/wordpress-hardening-bypass/)|
-|WordPress|<= 5.0.0|Unprivileged RCE|CVE-2019-8943|[RIPS Bog](https://blog.sonarsource.com/wordpress-image-remote-code-execution/)|
+|WordPress|<= 5.0.0|Unprivileged RCE|CVE-2019-8943|[SonarSource Blog](https://blog.sonarsource.com/wordpress-image-remote-code-execution/)|
 |WordPress|<= 5.1.0|CSRF to RCE|CVE-2019-9787|[SonarSource Blog](https://blog.sonarsource.com/wordpress-csrf-to-rce/)|
 |WordPress|<= 5.0.0|Post Priv Esc|CVE-2018-20152|[SonarSource Blog](https://blog.sonarsource.com/wordpress-post-type-privilege-escalation/)|
 |WordPress|–|Priv Esc|CVE-2018-20714|[SonarSource Blog](https://blog.sonarsource.com/wordpress-design-flaw-leads-to-woocommerce-rce/)|
