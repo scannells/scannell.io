@@ -13,6 +13,7 @@ An incomplete list of all vulnerabilities I ever found!
 
 |Software|Versions|Impact|CVE|Write-Up|
 |--- |--- |--- |--- |--- |
+|CS:GO|N/A|RCE in Game clients when joining a malicious server|N/A|[SecretClub Blog](https://secret.club/2021/05/13/source-engine-rce-join.html)|
 |Linux|< 5.8.15|Privilege Escalation|CVE-2020-27194|[Write Up](https://scannell.io/posts/ebpf-fuzzing/), [Exploit](https://github.com/scannells/exploits/tre/master/CVE-2020-27194)|
 |libGD|<= 2.2.5|PHP imagescale()remote wild free||[HackerOne report](https://hackerone.com/reports/478367)|
 |libGD|<= 2.2.5|PHP “Sandbox” escape|CVE-2019-6977|[Exploit](https://github.com/scannells/exploits/blob/master/CVE-2019-6977%20imagecolormatch.php)|
