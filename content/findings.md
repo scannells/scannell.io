@@ -13,7 +13,14 @@ An incomplete list of all vulnerabilities I ever found!
 
 |Software|Versions|Impact|CVE|Write-Up|
 |--- |--- |--- |--- |--- |
+|WordPress|<= 5.8.2|Privileged Stored XSS|CVE-2022-21662|[SonarSource Blog](https://blog.sonarsource.com/wordpress-stored-xss-vulnerability)|
+|GoCD Server|<= 21.2.0|Pre-Auth Stored XSS in Admin Dashboard to RCE|CVE-2021-43288; CVE-2021-43286|[SonarSource Blog](https://blog.sonarsource.com/gocd-vulnerability-chain)|
+|GoCD Server|<= 21.2.0|Pre-Auth disclosure of all Secrets|CVE-2021-43287|[SonarSource Blog](https://blog.sonarsource.com/gocd-pre-auth-pipeline-takeover)|
+|Zimbra|< 8.8.15|Full-Read SSRF|CVE-2021-35209|[SonarSource Blog](https://blog.sonarsource.com/zimbra-webmail-compromise-via-email)|
+|Zimbra|< 8.8.15|XSS in email body|CVE-2021-35208|[SonarSource Blog](https://blog.sonarsource.com/zimbra-webmail-compromise-via-email)|
 |CS:GO|N/A|RCE in Game clients when joining a malicious server|N/A|[SecretClub Blog](https://secret.club/2021/05/13/source-engine-rce-join.html)|
+|MyBB|<= 1.8.26|Privileged RCE|CVE-2021-27890|[SonarSource Blog](https://blog.sonarsource.com/mybb-remote-code-execution-chain)|
+|MyBB|<= 1.8.26|Unprivileged Stored XSS in PM feature|CVE-2021-27889|[SonarSource Blog](https://blog.sonarsource.com/mybb-remote-code-execution-chain)|
 |Linux|< 5.8.15|Privilege Escalation|CVE-2020-27194|[Write Up](https://scannell.io/posts/ebpf-fuzzing/), [Exploit](https://github.com/scannells/exploits/tre/master/CVE-2020-27194)|
 |libGD|<= 2.2.5|PHP imagescale()remote wild free||[HackerOne report](https://hackerone.com/reports/478367)|
 |libGD|<= 2.2.5|PHP “Sandbox” escape|CVE-2019-6977|[Exploit](https://github.com/scannells/exploits/blob/master/CVE-2019-6977%20imagecolormatch.php)|
