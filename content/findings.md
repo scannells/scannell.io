@@ -13,7 +13,12 @@ An incomplete list of all vulnerabilities I ever found!
 
 |Software|Versions|Impact|CVE|Write-Up|
 |--- |--- |--- |--- |--- |
-|WordPress|<= 5.8.2|Privileged Stored XSS|CVE-2022-21662|[Sonar Blog](https://blog.sonarsource.com/wordpress-stored-xss-vulnerability)|
+|Zimbra Mailserver|<= 8.8.15 P31 & 9.0.0 P24|pre-auth RCE via unrar bug|CVE-2022-30333|[Sonar Blog](https://blog.sonarsource.com/zimbra-pre-auth-rce-via-unrar-0day/)|
+|Zimbra Mailserver|<= 8.8.15 P31 & 9.0.0 P24|remote, unauthenticated disclosure of clear-text credentials|CVE-2022-27924|[Sonar Blog](https://blog.sonarsource.com/zimbra-mail-stealing-clear-text-credentials-via-memcache-injection/)|
+|Horde Webmail|<= 5.2.22|RCE via opened email|CVE-2022-30287|[Sonar Blog](https://blog.sonarsource.com/horde-webmail-rce-via-email/)|
+|RainLoop Webmail|<= 1.6.0|XSS in email body|CVE-2022-29360|[Sonar Blog](https://blog.sonarsource.com/rainloop-emails-at-risk-due-to-code-flaw/)|
+|Horde Webmail|<= 5.2.22|XSS in attachment body|CVE-2022-26874|[Sonar Blog](https://blog.sonarsource.com/horde-webmail-account-takeover-via-email/)|
+|WordPress|< 5.8.3|Object Injection to Sandbox escape|CVE-2022-21663|[Sonar Blog](https://blog.sonarsource.com/wordpress-object-injection-vulnerability/)|
 |GoCD Server|<= 21.2.0|Pre-Auth Stored XSS in Admin Dashboard to RCE|CVE-2021-43288; CVE-2021-43286|[Sonar Blog](https://blog.sonarsource.com/gocd-vulnerability-chain)|
 |GoCD Server|<= 21.2.0|Pre-Auth disclosure of all Secrets|CVE-2021-43287|[Sonar Blog](https://blog.sonarsource.com/gocd-pre-auth-pipeline-takeover)|
 |Zimbra|< 8.8.15|Full-Read SSRF|CVE-2021-35209|[Sonar Blog](https://blog.sonarsource.com/zimbra-webmail-compromise-via-email)|
