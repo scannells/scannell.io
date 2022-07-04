@@ -1,4 +1,4 @@
-baseURL = "http://scannell.me"
+baseURL = "http://scannell.io"
 languageCode = "en-us"
 defaultContentLanguage = "en"
 theme = "terminal"
